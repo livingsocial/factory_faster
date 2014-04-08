@@ -30,7 +30,7 @@ module FactoryFaster
     private
 
     def signature_for(filename)
-      Digest::MD5::hexdigest(File.read(filename))
+      Digest::MD5.hexdigest(File.read(filename))
     end
 
     def store
