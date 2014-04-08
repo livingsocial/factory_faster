@@ -20,19 +20,19 @@ Or install it yourself as:
 
 Process just one file with:
 
-    bundle exec script/rails runner "FactoryFaster::Faster.new('test/unit/foo_test.rb').process"
+    bundle exec script/rails runner "FactoryFaster::Batch.new('test/unit/foo_test.rb').process"
 
 Or if you want to include the gem but not `require` it in your `Gemfile`:
 
-    bundle exec script/rails runner "require 'factory_faster' ; FactoryFaster::Faster.new('test/unit/foo_test.rb').process"
+    bundle exec script/rails runner "require 'factory_faster' ; FactoryFaster::Batch.new('test/unit/foo_test.rb').process"
 
 Or use a glob to process lots of files:
 
-    bundle exec script/rails runner "FactoryFaster::Faster.new('test/unit/*.rb').process"
+    bundle exec script/rails runner "FactoryFaster::Batch.new('test/unit/*.rb').process"
 
 The output will be something like this:
 
-    foo> $ bundle exec script/rails runner "FactoryFaster::Faster.new('test/unit/foo_test.rb').process"
+    foo> $ bundle exec script/rails runner "FactoryFaster::Batch.new('test/unit/foo_test.rb').process"
     Processing test/unit/foo_test.rb
     Checking target 1 of 2 on line 42
     Replacing create with build
