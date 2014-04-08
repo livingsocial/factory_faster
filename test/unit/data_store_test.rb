@@ -7,13 +7,13 @@ class DataStoreTest < Test::Unit::TestCase
     store = FactoryFaster::DataStore.new(sample_filename)
     assert_equal 2, store.records.size
   end
-
+  
   should "deserialize skips" do
     setup_sample_file
     store = FactoryFaster::DataStore.new(sample_filename)
     assert_equal [5,12,19,20], store.skips_for("test/unit/foo_test.rb")
   end
-
+  
   should "be able to set skips" do
     setup_sample_file
     File.expects(:read).returns("foo") # MD5 is acbd18db4cc2f85cedef654fccc4a4d8
