@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tom.copeland@livingsocial.com"]
   spec.summary       = %q{FactoryFaster makes your FactoryGirl tests faster.}
   spec.description   = %q{FactoryFaster makes your FactoryGirl tests faster.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/livingsocial/factory_faster"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
