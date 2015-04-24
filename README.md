@@ -12,10 +12,6 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install factory_faster
-
 ## Usage
 
 Process just one file with:
