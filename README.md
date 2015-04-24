@@ -60,3 +60,8 @@ FactoryFaster doesn't skip commented out lines.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Contributors
+
+Tom Copeland - author
+Ronnie Miller - method name bugfix
