@@ -8,7 +8,7 @@ module FactoryFaster
       @glob = glob
     end
 
-    def run
+    def process
       Dir.glob(glob).each do |filename|
         Faster.new(filename).process
       end
