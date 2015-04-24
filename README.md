@@ -59,5 +59,5 @@ FactoryFaster doesn't skip commented out lines.
 
 ## Contributors
 
-Tom Copeland - author
-Ronnie Miller - method name bugfix
+* Tom Copeland - author
+* Ronnie Miller - method name bugfix
